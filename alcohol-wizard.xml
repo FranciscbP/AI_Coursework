@@ -4,9 +4,9 @@
 <category> <pattern> HELLO </pattern>
   <template>
     <random>
-      <li>Hello!</li>
+      <li>Hello! How are you?</li>
       <li>Hi, Nice to meet you!</li>
-      <li>Hey there!</li>
+      <li>Hey there! How are you?</li>
     </random>
   </template> 
 </category>
@@ -63,8 +63,48 @@
   <template><srai>HOW ARE YOU</srai></template>
 </category>
 
+<category> <pattern> WHAT ABOUT YOU </pattern>
+  <template><srai>HOW ARE YOU</srai></template>
+</category>
+
+<category> <pattern> WHAT ABOUT YOU *</pattern>
+  <template><srai>HOW ARE YOU</srai></template>
+</category>
+
+<category> <pattern> * WHAT ABOUT YOU </pattern>
+  <template><srai>HOW ARE YOU</srai></template>
+</category>
+
+<category> <pattern> * WHAT ABOUT YOU *</pattern>
+  <template><srai>HOW ARE YOU</srai></template>
+</category>
+
 <category> <pattern> I AM FINE </pattern>
   <template>That's good to know. What would you like to discuss about?</template>
+</category>
+
+<category> <pattern> I AM GOOD </pattern>
+  <template><srai> I AM FINE </srai></template>
+</category>
+
+<category> <pattern> I AM OK </pattern>
+  <template><srai> I AM FINE </srai></template>
+</category>
+
+<category> <pattern> I AM OKAY </pattern>
+  <template><srai> I AM FINE </srai></template>
+</category>
+
+<category> <pattern> I AM NOT FINE </pattern>
+  <template>I'm sorry to hear that. What would you like to discuss about?</template>
+</category>
+
+<category> <pattern> I AM NOT OK </pattern>
+  <template><srai> I AM NOT FINE </srai></template>
+</category>
+
+<category> <pattern> WHATS UP</pattern>
+  <template>The sky!</template>
 </category>
 
 <category> <pattern> BYE </pattern>
@@ -100,6 +140,13 @@
 <category> <pattern> CHEERS * </pattern>
   <template>Sure mate.</template>
 </category>
+
+<!-- Random Questions -->
+<category> <pattern> WHAT ARE YOU *</pattern>
+  <template>I am the Alcohol Wizard, the bot that has the answer to all of your questions about Alcohol.</template>
+</category>
+
+
 
 <!--- Wikipedia API -->
 <category> <pattern> WHAT IS A * </pattern>
